@@ -12,14 +12,110 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link link">Contacts</a></li>
+                  <li class="nav-item"><a href="#about_me" class="nav-link link">About me</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link link">Skills</a></li>
+                  <li class="nav-item"><a href="#code_example" class="nav-link link">Code example</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link link">Education</a></li>
+                  <li class="nav-item"><a href="#english_language" class="nav-link link">English Language</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-
+    <main class="main main-container">
+        <!-- <div class="container"> -->
+            <section class="section section-profile" id="profile">
+                <img class="avatar" src="./img/my_photo.png" alt="avatar">
+                <h1 class="section-tittle-head">Eugen Sopilnyak
+                    <p class="my-goal">Future front-end developer</p> 
+                </h1>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-tittle">Contacts</h2>
+                <ul>
+                    <li> <b>Location:</b>  Ukraine, Zaporozie;</li>
+                    <li> <b>Phone:</b>  +38(095)8389571;</li>
+                    <li> <b>Email:</b>  eugen.sopilnyak@gmail.com;</li>
+                    <li> <b>GitHub:</b>  <a href="https://github.com/EugenES7" target="_blank">@EugenES7;</a></li>
+                    <li> <b>LinkedIn:</b>  <a href="https://www.linkedin.com/in/eugen-sopilnyak-b83030236/" target="_blank">LinkedIn Profile;</a></li>
+                    <li> <b>Facebook:</b>  <a href="https://www.facebook.com/eugensopilnyak" target="_blank">Facebook Profile;</a></li>
+                    <li> <b>Discord:</b>  EugenES7#5429 <i>(nickname on Discord-server RS School)</i> </li>
+                </ul>
+            </section>
+            <section class="section" id="about_me">
+                <h2 class="section-tittle">About me</h2>
+                <p>
+                    Throughout my life I've always been interested in the exact sciences and technical disciplines.
+                    I graduated the Engineering Academy, received a specialist degree and worked in the construction industry (started my career as a foreman, then worked my way up to a construction project manager).
+                    Despite my experience, I was always interested in learning something new, so I decided to try myself at the IT field.
+                    I've always been distinguished by  desire for self-improvement and acquiring new knowledge.
+                    I take education very seriously and I'm not afraid of difficulties.
+                    I always set high goals for myself and now the aim of my studies is to reach an excellent level of a front-end specialist within a year.
+                </p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-tittle">Skills</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript (Basic)</li>
+                    <li>Git</li>
+                    <li>Windows OS</li>
+                    <li>Figma (for web development)</li>
+                    <li>Photoshop</li>
+                    <li>VSCode</li>
+                    <li>ArchiCAD/AutoCAD (from my main specialty)</li>
+                </ul>
+            </section>
+            <section class="section" id="code_example">
+                <h2 class="section-tittle">Code example</h2>
+                <p>
+                    function multiply(a, b){ <br>
+                        return a * b <br>
+                    }
+                </p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-tittle">Education</h2>
+                <ul>
+                    <li> <b>Zaporozhye State Engineering Academy:</b>  Higher education, civil engineer;</li>
+                    <li> <b>WayUp:</b> 
+                        <ul>
+                            <li> <a href="https://wayup.in/library/course18" target="_blank">Java Script;</a></li>
+                            <li> <a href="https://wayup.in/library/course10" target="_blank">HTML/CSS;</a></li>
+                        </ul>
+                    </li>
+                    <li> <b>Stepik:</b> 
+                        <ul>
+                            <li> <a href="https://stepik.org/cert/1487220" target="_blank">HTML/CSS;</a></li>
+                        </ul>
+                    </li>
+                    <li> <b>CS50:</b> 
+                        <ul>
+                            <li> <a href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA">Lectures.</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="english_language">
+                <h2 class="section-tittle">English language</h2>
+                <p>
+                    A2 <i>(I am currently taking courses to improve my English level)</i> 
+                </p>
+            </section>
+        <!-- </div> -->
     </main>
-    <footer>
-        
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-content">
+                &copy; 2022 &nbsp; <a href="https://github.com/EugenES7" target="_blank" class="git-footer">EugenES7</a>
+            </div>
+            <a href="https://rs.school/js/" target="_blank"> <img src="https://rs.school/images/rs_school_js.svg" alt="logo_rs_school" class="logo"> </a>
+        </div>
     </footer>
 </body>
 </html>
