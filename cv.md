@@ -1,5 +1,5 @@
 
-# ![my photo](my_photo.png)
+# ![my photo](./img/my_photo.png)
 
 # Eugen Sopilnyak
 
